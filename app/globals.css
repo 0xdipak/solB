@@ -8,6 +8,12 @@
   --background-end-rgb: 255, 255, 255;
 }
 
+@layer components {
+    .primary-button {
+        @apply bg-blue-400 text-white hover:bg-blue-500 px-4 py-2 rounded-md duration-200;
+    }
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
@@ -15,6 +21,7 @@
     --background-end-rgb: 0, 0, 0;
   }
 }
+
 
 body {
   color: rgb(var(--foreground-rgb));
@@ -26,8 +33,35 @@ body {
     rgb(var(--background-start-rgb));
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+label {
+  margin-bottom: 0.3rem;
+  font-size: 1.1rem;
+}
+
+input, textarea {
+  background-color: #f1f1f1;
+  padding: 0.5rem;
+  border-radius: 0.2rem;
+  margin-bottom: 2rem;
+  color: #383838;
+}
+button {
+  user-select: none;
+}
+
+.footer li {
+  margin: 0.5rem 0.2rem;
+}
+
+.btn {
+    color: #ffffff;
+  background-color: #1b2f31;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3em;
+  width: 8em;
+  font-size: large;
+  font-weight: 600;
 }

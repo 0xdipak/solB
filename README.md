@@ -1,36 +1,25 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Project solB :
 
-## Getting Started
+![Logo](https://miro.medium.com/v2/resize:fit:828/format:webp/1*ze4HLTQ_T5CH-Kz18auDiQ.png)
 
-First, run the development server:
+- SolB, derived from the combination of “Solana” and “billing,” serves as an alternative to the current billing system. It replaces traditional billing mechanisms and addresses concerns related to the security and trustworthiness of data storage in existing systems.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- SolB represents a hybrid billing system, offering clients the flexibility to store data locally or on the blockchain, allowing them to utilize both options. SolB ensures that customer data is handled securely, in a trustless, and decentralized manner.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- SolB integrates blockchain technology with existing technologies to establish a decentralized, secure, and transparent environment for both clients and customers.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- In summary, SolB addresses the issues present in current billing systems by offering a hybrid environment that allows clients to effectively manage, store, and update their financial and user data, among other elements.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- As a hybrid billing system, SolB consists of two primary components:
 
-## Learn More
+## Invoicer :
 
-To learn more about Next.js, take a look at the following resources:
+![Logo](https://miro.medium.com/v2/resize:fit:4800/format:webp/1*yQrvs61KrSLJnCh42DkfKg.png)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Within SolB, the Invoicer serves as a utility tool provided to our clients for invoicing and storing bills on their preferred platform. The Invoicer offers the flexibility of storing data on a local database, a blockchain system, or both.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Expenser: 
 
-## Deploy on Vercel
+![Logo](https://miro.medium.com/v2/resize:fit:828/format:webp/1*q67EoOUvcnKbE17NIeDqJA.png)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+ - Expenser, another utility tool offered to customers within SolB, enables users to view their comprehensive expenses on the system.

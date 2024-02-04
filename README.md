@@ -23,3 +23,5 @@
 ![Logo](https://miro.medium.com/v2/resize:fit:828/format:webp/1*q67EoOUvcnKbE17NIeDqJA.png)
 
  - Expenser, another utility tool offered to customers within SolB, enables users to view their comprehensive expenses on the system.
+
+ - Report : https://medium.com/@0xdipak/project-solb-future-of-decentralized-and-blockchain-billing-ef542f31d90f
